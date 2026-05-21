@@ -96,7 +96,7 @@ def dashboard_professor():
                 st.progress(turma['nivelamento'] / 100)
             with c4:
                 # Importante: O arquivo precisa existir na pasta pages/ para funcionar
-                st.page_link("pages/turma.py", label="Ver Detalhes", icon="📊", use_container_width=True)
+                st.page_link("pages/Turma.py", label="Ver Detalhes", icon="📊", use_container_width=True)
             st.markdown("---")
 
 if __name__ == "__main__":
