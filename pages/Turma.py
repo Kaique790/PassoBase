@@ -93,7 +93,7 @@ for aluno in MOCK_ALUNOS:
     
     with c3:
         with st.container(border=True):
-            st.page_link("pages/aluno.py", label="ACESSAR", use_container_width=True)
+            st.page_link("pages/Aluno.py", label="ACESSAR", use_container_width=True)
     
     st.markdown("<div style='margin-bottom: -15px;'></div>", unsafe_allow_html=True)
     st.divider()
