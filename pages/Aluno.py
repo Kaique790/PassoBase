@@ -5,7 +5,7 @@ import plotly.express as px
 st.set_page_config(page_title="Perfil do Aluno", layout="wide")
 
 # Link para voltar à página da turma
-st.page_link("pages/turma.py", label="<- Voltar para a Turma")
+st.page_link("pages/Turma.py", label="<- Voltar para a Turma")
 
 st.title("Perfil Individual do Aluno")
 st.divider()
